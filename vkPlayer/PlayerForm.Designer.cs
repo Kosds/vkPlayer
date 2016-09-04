@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayerForm));
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.TrackListBox = new System.Windows.Forms.ListBox();
             this.MediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             ((System.ComponentModel.ISupportInitialize)(this.MediaPlayer)).BeginInit();
@@ -70,7 +69,6 @@
 
         #endregion
 
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ListBox TrackListBox;
         private AxWMPLib.AxWindowsMediaPlayer MediaPlayer;
     }

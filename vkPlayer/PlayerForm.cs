@@ -45,22 +45,7 @@ namespace vkPlayer
                 }));
 
         }
-        /*
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-            while (!authData.Default.auth) { Thread.Sleep(500); }
-            try
-            {
-                audioList = GetTrackList();
-            }
-            catch (Exception exception)
-            {
-                MessageBox.Show("Ошибка: " + exception.Message);
-                this.Invoke((MethodInvoker)this.Close);
-            }
-            this.Invoke((MethodInvoker)LoadTrackList);
-        }
-        */
+        
         private void TrackClick(object sender, MouseEventArgs e)
         {
             if (TrackListBox.Items.Count != 0)
